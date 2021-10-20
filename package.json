@@ -9,6 +9,19 @@
     "categories": [
         "Keymaps"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/czfadmin/onezero-keymap.git"
+    },
+    "author": "abchen",
+    "publisher": "czfadmin",
+    "bugs": {
+        "url": "https://github.com/czfadmin/onezero-keymap/issues"
+    },
+    "keywords": [
+        "keybindings",
+        "Keymaps"
+    ],
     "contributes": {
         "keybindings": [
             {
