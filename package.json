@@ -42,16 +42,6 @@
                 "command": "workbench.action.toggleActivityBarVisibility"
             },
             {
-                "key": "cmd+m cmd+a",
-                "command": "todo.archive",
-                "when": "editorTextFocus && editorLangId == 'todo'"
-            },
-            {
-                "key": "shift+cmd+a",
-                "command": "-todo.archive",
-                "when": "editorTextFocus && editorLangId == 'todo'"
-            },
-            {
                 "key": "cmd+\\",
                 "command": "-workbench.action.splitEditor"
             },
@@ -111,11 +101,6 @@
                 "key": "cmd+enter",
                 "command": "editor.action.quickFix",
                 "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
-            },
-            {
-                "key": "alt+enter",
-                "command": "-todo.toggleBox",
-                "when": "editorTextFocus && editorLangId == 'todo'"
             },
             {
                 "key": "shift+alt+f",
